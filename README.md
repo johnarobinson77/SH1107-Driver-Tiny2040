@@ -18,3 +18,5 @@ __sh1107_test.c__ has a main() the that tests the primary functionality of the c
 __blink.c__ and blink.h blink the LEDs on the tyny2040.  sh1107_test.c uses it for debugging and progress indicators.  It is not needed for any project you might use this for.
 
 The best example of what can be done with this driver can be found within the "#ifdef COMBINED_TEST" region of sh1107_test.c in which two independent text regions are placed below a scrolling graph.  Here is a picture of the display during that test.
+
+![Combined Test](https://github.com/johnarobinson77/SH1107-Driver-Tiny2040/blob/main/display.jpg)
